@@ -16,7 +16,6 @@ const taskStore = useTaskStore();
     </li>
   </ul>
   : {{ taskStore.numberOfTasks }}
-  <pre style="text-align: left">{{ JSON.stringify(taskStore, null, 2) }}</pre>
 </template>
 
 <style scoped>
